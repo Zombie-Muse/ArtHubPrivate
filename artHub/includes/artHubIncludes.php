@@ -15,6 +15,7 @@ include_once(APP_NON_WEB_BASE_DIR .'controllers/DefaultController.php');
 include_once(APP_NON_WEB_BASE_DIR .'controllers/HomeController.php');
 include_once(APP_NON_WEB_BASE_DIR .'controllers/CartController.php');
 include_once(APP_NON_WEB_BASE_DIR .'controllers/AdminController.php');
+include_once(APP_NON_WEB_BASE_DIR .'controllers/UserController.php');               //added controller for user
 include_once(APP_NON_WEB_BASE_DIR .'models/Category.php');
 include_once(APP_NON_WEB_BASE_DIR .'models/Product.php');
 //include_once(APP_NON_WEB_BASE_DIR .'db/CategoryDAM.php');
@@ -25,3 +26,4 @@ include_once(APP_NON_WEB_BASE_DIR .'viewModels/Page.php');
 include_once(APP_NON_WEB_BASE_DIR .'viewModels/MessageVM.php');
 //include_once(APP_NON_WEB_BASE_DIR .'viewModels/ProductsVM.php');
 include_once(APP_NON_WEB_BASE_DIR .'viewModels/ProductsVMAchtung.php');
+include_once(APP_NON_WEB_BASE_DIR .'viewModels/TestFormData.php');

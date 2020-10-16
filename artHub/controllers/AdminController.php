@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Controller that handles administrator functions of the Guitar Shop
+ * Controller that handles administrator functions of the ArtHub
  * application.
  *
  * @author Gary McCormack

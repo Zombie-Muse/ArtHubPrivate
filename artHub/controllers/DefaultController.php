@@ -39,7 +39,7 @@ class DefaultController {
         }
 
         // Go to the default view of the application.
-        require(APP_NON_WEB_BASE_DIR . 'views/home.php');
+        require(APP_NON_WEB_BASE_DIR . 'views/home3.php');
     }
 
 }
