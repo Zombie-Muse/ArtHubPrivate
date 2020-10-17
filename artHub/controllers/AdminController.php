@@ -20,6 +20,23 @@ class AdminController extends DefaultController {
         require(APP_NON_WEB_BASE_DIR . 'views/adminLogin.php');
     }
 
+    public function registerGET() {
+        $vm = null;
+        Page::$title = 'ArtHub - Register';
+        require(APP_NON_WEB_BASE_DIR . 'views/register.php');
+    }
+
+    public function registerPOST() {
+        $vm = RegisterVM::getInstance();
+        if ($vm->registrationType === RegisterVM::VALID_REGISTRATION) {
+            Page::$title = 'Valid Registration';
+            require(APP_NON_WEB_BASE_DIR .'views/registrationSuccess.php');
+        } else {
+            Page::$title = 'Invalid Registration';
+            require(APP_NON_WEB_BASE_DIR .'views/registrationErrors.php');
+        }
+    }
+
     public function listProducts() {
         $vm = ProductsVM::getCategoryInstance();
         Page::$title = 'Product Mgr - ' . $vm->category->name;
