@@ -48,7 +48,14 @@ class RegisterVM {
         $success = false;
 		
         // Add validation code here.
-		// If all validation tests pass, set $success = true.
+        // If all validation tests pass, set $success = true.
+        if($enteredPW === $enteredConfPW) {
+            $success = true;
+        }
+        else{
+            $vm->registrationType = self::INVALID_REGISTRATION;
+            $success = false;
+        }
         return $success;
     }
 

@@ -1,4 +1,4 @@
-<?php require('views/guitarShopAdminHeader.php'); ?>
+<?php //require('views/guitarShopAdminHeader.php'); ?>
 <main>
 <section>
     <h1>Register form validation errors</h1>
@@ -7,4 +7,4 @@
     
 </section>
 </main>
-<?php require('views/guitarShopFooter.php');
+<?php //require('views/guitarShopFooter.php'); 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+
 <html lang="en">
 
 <head>
@@ -213,7 +214,7 @@
                                         <a href="login.html">Login</a>
                                     </li>
                                     <li>
-                                        <a href="register.php">Register</a>
+                                        <a href="?ctlr=admin&amp;action=register">Register</a>
                                     </li>
                                 </ul>
                             </li>

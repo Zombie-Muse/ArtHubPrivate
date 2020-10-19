@@ -1,4 +1,4 @@
-<?php require('views/guitarShopAdminHeader.php'); ?>
+<?php //require('views/guitarShopAdminHeader.php'); ?>
 <main>
 <section>
     <h1>All user registration inputs are valid!</h1>
@@ -10,4 +10,4 @@
     
 </section>
 </main>
-<?php require('views/guitarShopFooter.php');
+<?php //require('views/guitarShopFooter.php');

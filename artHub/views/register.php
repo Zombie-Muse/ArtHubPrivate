@@ -356,7 +356,15 @@
                         <div class="contact-form col-md-8 col-xs-12">
                             <h1>Sign Up</h1>
                             <p>Register for an account to start uploading your art right away!</p>
-                            <form action="." method="get">
+                            <?php 
+                                if ($vm != null) {
+                                    if ($vm->errorMsg != '') { ?>
+                                        <p> <?php echo $vm->errorMsg; ?></p>
+                                    <?php }
+                            }?>
+                            <form action="." method="post" id="register_user">
+                                <input type="hidden" name="ctlr" value="admin" />
+                                <input type="hidden" name="action" value="register" />
                                 <div class="con-item col-xs-12">
                                     <label>First Name</label>
                                     <input type="text" name="f_name" aria-required="true">
@@ -388,7 +396,7 @@
                                 <!-- end con-item -->
                                 <div class="con-item col-xs-12">
                                     <label>&nbsp;</label>
-                                    <button type="submit" name="register_user">
+                                    <button type="submit">
                                         <i class="fa fa-paper-plane"></i> Sign Up
                                     </button>
                                 </div>
