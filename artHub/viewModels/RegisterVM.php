@@ -38,45 +38,80 @@ class RegisterVM {
         $vm->newUser = new User($varArray);
         $vm->enteredPW = hPOST('password');
         $vm->enteredConfPW = hPOST('confirmPassword');
-        if ($vm->validateUserInput($varArray, $vm->enteredPW, $vm->enteredConfPW)) {
+        if ($vm->validateUserInput()) {
             $vm->registrationType = self::VALID_REGISTRATION;
         }
         return $vm;
     }
       
-    public function validateUserInput($varArray, $enteredPW, $enteredConfPW) {
+    public function validateUserInput() {
         $success = false;
 		
         // Add validation code here.
         // If all validation tests pass, set $success = true.
 
-        // test first name
-        if($varArray['f_name'] == null) {
-            $statusMsg['f_name'] = "You must enter a first name.";
-        }
-        // test last name
-        if($varArray['l_name'] == null) {
-            $statusMsg['l_name'] = "You must enter a last name.";
-        }
-        // test email
-        if($varArray['id'] == null) {
-            $statusMsg['email'] = "You must enter a valid email.";
-        }
-        // test phone number
-        if($varArray['phone'] == null) {
-            $statusMsg['phone'] = "You must enter a alid phone number.";
-        }
-        // test password
-        if($enteredPW == null || $enteredConfPW == null) {
-            $statusMsg[$enteredPW] = "You must enter a password";
+        //UNIQUE
+	    //If the inputted Email doesn't exist then it will return a null value
+	    $ent_Email = emailPost('email');
+
+	    //setup variables
+	    $ent_FName = hPOST('f_name');
+	    $ent_LName = hPOST('l_name');
+	    $ent_Phone = hPOST('phone');
+	    $ent_Password = hPOST('password');
+        $ent_ConfirmPassword = hPOST('confirmPassword');
+        $statusMsg = array (); 
+	
+	    //MY UNIQUE VARIABLE
+        // $checkSuccess = 0;
+	
+	    //Check if Email exist
+	    if (!hasPresence($ent_Email)){
+		    $statusMsg['error 1: '] = "Please enter email. <br />";
+	    } 
+
+	    //Checks if First Name exist
+	    if (!hasPresence($ent_FName)){
+            // $checkSuccess += 1;
+            $statusMsg['error 2: '] = "Please enter your first name. <br />";
+	    }
+
+	    //Checks if Last Name exist
+	    if (!hasPresence($ent_LName)){
+            // $checkSuccess += 1;
+            $statusMsg['error 3: '] = "Please enter your last name. <br />";
         }
 
-        return $success;
+	    //Checks if Phone Number exist
+	    if (hasPresence($ent_Phone)){
+		    if (!preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $ent_Phone)){
+			    $statusMsg['error 4: '] = "Please enter a valid phone number. <br />";
+		    } 
+        } 
+        else {
+		    $statusMsg['error 4a '] = "Phone Number is empty! </br>";
+	    }
+
+	    //Checks Password and Confirm Password exists
+	    if (hasPresence($ent_Password) && hasPresence($ent_ConfirmPassword)){
+
+		    //Checks if Password matches Confirm Password
+		    if ($ent_Password !== $ent_ConfirmPassword) {
+                $statusMsg['Error 5: '] = "Your passwords do not match! </br>";
+            }
+        } 
+        else {
+		    $statusMsg['error 6: '] = "Please enter password and confirm password. <br />";
+	    }
+
+	    //check if there are any errors
+	    if ($statusMsg == null){
+            $success = true;
+        }
+        else {
+            echo implode($statusMsg);
+        }
+    
+        return $statusMsg;
     }
-
-    public function displayError() {
-        $errorMsg = "Please fix the following errors: " . $statusMsg;
-        return $errorMsg;
-    }
-
 }
