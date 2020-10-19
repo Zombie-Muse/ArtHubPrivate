@@ -3,8 +3,8 @@
 /**
  * Contains deployment constants for the GuitarShop application.
  * 
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 
 // Access files base directory

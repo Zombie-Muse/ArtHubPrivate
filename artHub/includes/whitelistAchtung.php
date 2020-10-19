@@ -3,8 +3,8 @@
 /**
  * Contains GET request whitelist for the GuitarShop application.
  * 
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 
 // Whitelist of MVC actions allowed from a GET request.

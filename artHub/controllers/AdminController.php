@@ -4,8 +4,8 @@
  * Controller that handles administrator functions of the ArtHub
  * application.
  *
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 class AdminController extends DefaultController {
 

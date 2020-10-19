@@ -4,8 +4,8 @@
  * Product model data access and manipulation (DAM) class.
  * This version is vulnerable to SQL injection.
  *
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 class ProductDAM extends DAM {
 

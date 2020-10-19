@@ -4,7 +4,7 @@
  * View model for user registration functions.
  *
  * @author jam
- * @version 201015
+ * @version 201018
  */
 class RegisterVM {
 
@@ -32,8 +32,8 @@ class RegisterVM {
         $vm = new self();
         
         $varArray = array('id' => emailPost('email'),
-            'lastName' => hPOST('lastName'),
-            'firstName' => hPOST('firstName'),
+            'l_Name' => hPOST('l_Name'),
+            'f_Name' => hPOST('f_Name'),
 			'phoneNumber' => hPOST('phoneNumber'));
         $vm->newUser = new User($varArray);
         $vm->enteredPW = hPOST('password');
@@ -49,13 +49,16 @@ class RegisterVM {
 		
         // Add validation code here.
         // If all validation tests pass, set $success = true.
-        if($enteredPW === $enteredConfPW) {
-            $success = true;
-        }
-        else{
-            $vm->registrationType = self::INVALID_REGISTRATION;
-            $success = false;
-        }
+        // if($varArray['l_Name'] != null);
+        //     $success = true;
+        // if($enteredPW === $enteredConfPW) {
+        //     $success = true;
+        //     $vm->registrationType = self::VALID_REGISTRATION;
+        // }
+        // else{
+        //     $vm->registrationType = self::INVALID_REGISTRATION;
+        //     $success = false;
+        // }
         return $success;
     }
 

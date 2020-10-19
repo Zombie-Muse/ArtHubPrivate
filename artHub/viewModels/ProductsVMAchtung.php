@@ -3,8 +3,8 @@
 /**
  * View model for the featured products.
  *
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 class ProductsVM {
 

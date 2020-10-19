@@ -1,7 +1,7 @@
 <?php
 // All files that need to be included by the GuitarShop application
-// @author Gary McCormack
-// @version 1
+// @author jam
+// @version 201018
 
 // Includes common to other artHub applications
 include_once(NON_WEB_BASE_DIR . 'common/includes/artHubCommonIncludes.php');

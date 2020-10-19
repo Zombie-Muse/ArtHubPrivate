@@ -3,8 +3,8 @@
  * Sanitization functions.
  * Make sanitizing easy, and you will do it often.
  * 
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 
 // Sanitize for HTML output 

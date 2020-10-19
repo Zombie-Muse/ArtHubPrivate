@@ -3,8 +3,8 @@
 /**
  * Controller that handles home page functions of the ArtHub application.
  *
- * @author Gary McCormack   
- * @version 1
+ * @author jam   
+ * @version 201018
  */
 class HomeController extends DefaultController {
 

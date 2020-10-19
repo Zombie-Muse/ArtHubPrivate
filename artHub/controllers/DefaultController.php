@@ -6,8 +6,8 @@
  * The index method provides the default action of the application and can be
  * overridden in subclasses.
  *
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 class DefaultController {
 

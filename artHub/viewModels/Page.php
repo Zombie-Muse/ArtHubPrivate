@@ -5,8 +5,8 @@
  * Contains values to be displayed on common layout areas of the application's
  * web pages.
  *
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 class Page {
     

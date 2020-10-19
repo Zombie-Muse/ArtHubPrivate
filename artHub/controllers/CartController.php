@@ -3,8 +3,8 @@
 /**
  * Controller that handles shopping cart functions of the ArtHub app.
  *
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 class CartController extends DefaultController {
 

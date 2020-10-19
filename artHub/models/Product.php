@@ -3,8 +3,8 @@
 /**
  * Represents product in the ArtHub application
  *
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 class Product {
     

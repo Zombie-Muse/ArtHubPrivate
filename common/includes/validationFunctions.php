@@ -2,8 +2,8 @@
 /**
  * Core validation functions
  * 
- * @author Gary McCormack
- * @version 1
+ * @author jam
+ * @version 201018
  */
 
 // Example usage:

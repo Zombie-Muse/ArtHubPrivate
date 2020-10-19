@@ -3,8 +3,8 @@
 /**
  * View model for error and status messages.
  *
- * @author Gary McCormacak
- * @version 1
+ * @author jam  
+ * @version 201018
  */
 class MessageVM {
 
