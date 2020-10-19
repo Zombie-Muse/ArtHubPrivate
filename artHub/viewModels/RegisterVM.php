@@ -32,34 +32,51 @@ class RegisterVM {
         $vm = new self();
         
         $varArray = array('id' => emailPost('email'),
-            'l_Name' => hPOST('l_Name'),
-            'f_Name' => hPOST('f_Name'),
-			'phoneNumber' => hPOST('phoneNumber'));
+            'l_name' => hPOST('l_name'),
+            'f_name' => hPOST('f_name'),
+			'phone' => hPOST('phone'));
         $vm->newUser = new User($varArray);
         $vm->enteredPW = hPOST('password');
         $vm->enteredConfPW = hPOST('confirmPassword');
-        if ($vm->validateUserInput()) {
+        if ($vm->validateUserInput($varArray, $vm->enteredPW, $vm->enteredConfPW)) {
             $vm->registrationType = self::VALID_REGISTRATION;
         }
         return $vm;
     }
       
-    private function validateUserInput() {
+    public function validateUserInput($varArray, $enteredPW, $enteredConfPW) {
         $success = false;
 		
         // Add validation code here.
         // If all validation tests pass, set $success = true.
-        // if($varArray['l_Name'] != null);
-        //     $success = true;
-        // if($enteredPW === $enteredConfPW) {
-        //     $success = true;
-        //     $vm->registrationType = self::VALID_REGISTRATION;
-        // }
-        // else{
-        //     $vm->registrationType = self::INVALID_REGISTRATION;
-        //     $success = false;
-        // }
+
+        // test first name
+        if($varArray['f_name'] == null) {
+            $statusMsg['f_name'] = "You must enter a first name.";
+        }
+        // test last name
+        if($varArray['l_name'] == null) {
+            $statusMsg['l_name'] = "You must enter a last name.";
+        }
+        // test email
+        if($varArray['id'] == null) {
+            $statusMsg['email'] = "You must enter a valid email.";
+        }
+        // test phone number
+        if($varArray['phone'] == null) {
+            $statusMsg['phone'] = "You must enter a alid phone number.";
+        }
+        // test password
+        if($enteredPW == null || $enteredConfPW == null) {
+            $statusMsg[$enteredPW] = "You must enter a password";
+        }
+
         return $success;
+    }
+
+    public function displayError() {
+        $errorMsg = "Please fix the following errors: " . $statusMsg;
+        return $errorMsg;
     }
 
 }
