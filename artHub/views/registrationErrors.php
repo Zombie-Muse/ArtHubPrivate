@@ -355,19 +355,19 @@
                     <div class="contact-data col-xs-12">
                         <div class="contact-form col-md-8 col-xs-12">
                         <section>
-                            <h1>Register form validation errors</h1>
+                            <h1>Please fix the following errors: </h1>
                             <!-- <p>Add code to display validation and sanitization errors</p> -->
-	                        <p><?php echo $vm->statusMsg; ?></p>
+	                        <p><?php print_r($vm->error); ?></p>
     
                         </section>
                             <!-- <h1>Sign Up</h1>
                             <p>Register for an account to start uploading your art right away!</p> -->
                             <?php 
-                                if ($vm != null) {
-                                    if ($vm->errorMsg != '') { ?>
-                                        <p> <?php echo $vm->errorMsg; ?></p>
-                                    <?php }
-                            }?>
+                                //if ($vm != null) {
+                                    //if ($vm->errorMsg != '') { ?>
+                                        <p> <?php //echo implode($vm->errorMsg); ?></p>
+                                    <?php// }
+                           // }?>
                             <!-- <form action="." method="post" id="register_user">
                                 <input type="hidden" name="ctlr" value="admin" />
                                 <input type="hidden" name="action" value="register" />

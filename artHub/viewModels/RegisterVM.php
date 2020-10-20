@@ -14,6 +14,7 @@ class RegisterVM {
     public $errorMsg;
     public $statusMsg;
     public $newUser;
+    public $error = array();
     
     // User type constants used for switching in the controller.
     const VALID_REGISTRATION = 'valid_registration';
@@ -46,72 +47,63 @@ class RegisterVM {
       
     public function validateUserInput() {
         $success = false;
+        
 		
         // Add validation code here.
         // If all validation tests pass, set $success = true.
 
-        //UNIQUE
-	    //If the inputted Email doesn't exist then it will return a null value
-	    $ent_Email = emailPost('email');
-
-	    //setup variables
-	    $ent_FName = hPOST('f_name');
-	    $ent_LName = hPOST('l_name');
-	    $ent_Phone = hPOST('phone');
-	    $ent_Password = hPOST('password');
-        $ent_ConfirmPassword = hPOST('confirmPassword');
-        $statusMsg = array (); 
-	
-	    //MY UNIQUE VARIABLE
-        // $checkSuccess = 0;
-	
-	    //Check if Email exist
-	    if (!hasPresence($ent_Email)){
-		    $statusMsg['error 1: '] = "Please enter email. <br />";
-	    } 
-
-	    //Checks if First Name exist
-	    if (!hasPresence($ent_FName)){
-            // $checkSuccess += 1;
-            $statusMsg['error 2: '] = "Please enter your first name. <br />";
-	    }
-
-	    //Checks if Last Name exist
-	    if (!hasPresence($ent_LName)){
-            // $checkSuccess += 1;
-            $statusMsg['error 3: '] = "Please enter your last name. <br />";
+        if($this->newUser->f_name != null) {
+            // $error[] = $this->errorMsg;
         }
+            else{
+            $this->errorMsg = "Please enter your first name.";
+            $this->error[] = $this->errorMsg;
 
-	    //Checks if Phone Number exist
-	    if (hasPresence($ent_Phone)){
-		    if (!preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $ent_Phone)){
-			    $statusMsg['error 4: '] = "Please enter a valid phone number. <br />";
-		    } 
-        } 
-        else {
-		    $statusMsg['error 4a '] = "Phone Number is empty! </br>";
-	    }
+        }
+        if($this->newUser->l_name != null) {
+            // $error[] = $this->errorMsg;
+        }
+            else {
+            $this->errorMsg = "Please enter your last name.";
+            $this->error[] = $this->errorMsg;
 
-	    //Checks Password and Confirm Password exists
-	    if (hasPresence($ent_Password) && hasPresence($ent_ConfirmPassword)){
-
-		    //Checks if Password matches Confirm Password
-		    if ($ent_Password !== $ent_ConfirmPassword) {
-                $statusMsg['Error 5: '] = "Your passwords do not match! </br>";
-            }
-        } 
-        else {
-		    $statusMsg['error 6: '] = "Please enter password and confirm password. <br />";
-	    }
-
-	    //check if there are any errors
-	    if ($statusMsg == null){
+        }
+        if($this->newUser->id != null) {
+            // $error[] = $this->errorMsg;
+        }
+            else {
+            $this->errorMsg = "Please enter a valid email address.";
+            $this->error[] = $this->errorMsg;
+        }
+        if(preg_match("/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/", $this->newUser->phone)) {
+            // $error[] = $this->errorMsg;
+        }
+            else {
+            $this->errorMsg = "Please enter phone number in the following format: ###-###-####";
+            $this->error[] = $this->errorMsg;
+        }
+        if($this->enteredPW != null) {
+            // $error[] = $this->errorMsg;
+        }
+            else {
+            $this->errorMsg = "A password is required.";
+            $this->error[] = $this->errorMsg;
+        }
+        if($this->enteredConfPW != null) {
+            // $error[] = $this->errorMsg;
+        }
+            else {
+            $this->errorMsg = "Please confirm your password.";
+            $this->error[] = $this->errorMsg;
+        }
+        if($this->enteredPW != $this->enteredConfPW){
+            $this->errorMsg = "Your passwords do not match.";
+            $this->error[] = $this->errorMsg;
+        }
+        if($this->error == null){
             $success = true;
         }
-        else {
-            echo implode($statusMsg);
-        }
-    
-        return $statusMsg;
+        print_r($this->error);
+        return $success;
     }
 }

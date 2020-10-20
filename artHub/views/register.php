@@ -381,7 +381,7 @@
                                 <!-- end con-item -->
                                 <div class="con-item col-xs-12">
                                     <label>Phone</label>
-                                    <input type="text" name="phone" placeholder="xxx-xxx-xxxx" aria-required="true">
+                                    <input type="text" name="phone" placeholder="format numeber as ###-###-####" aria-required="true">
                                 </div>
                                 <!-- end con-item -->
                                 <div class="con-item col-xs-12">

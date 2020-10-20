@@ -352,7 +352,7 @@
                         <!-- End Google Map -->
                     </div>
                     <!-- end contact-map -->
-                    <div class="contact-data col-xs-12">
+                    <div class="contact col-xs-12">
                         <div class="contact-form col-md-8 col-xs-12">
                         <section>
                             <h1>All user registration inputs are valid!</h1>
@@ -364,14 +364,14 @@
     
                         </section>
                             <!-- <h1>Sign Up</h1>
-                            <p>Register for an account to start uploading your art right away!</p>
-                            <?php 
-                                if ($vm != null) {
-                                    if ($vm->errorMsg != '') { ?>
-                                        <p> <?php echo $vm->errorMsg; ?></p>
-                                    <?php }
-                            }?>
-                            <form action="." method="post" id="register_user">
+                            <p>Register for an account to start uploading your art right away!</p>-->
+                            <!-- <?php 
+                                //if ($vm != null) {
+                                    //if ($vm->errorMsg != '') { ?>
+                                        <p> <?php //echo $vm->errorMsg; ?></p> -->
+                                     <!--<?php //}
+                            ?>--> 
+                            <!-- <form action="." method="post" id="register_user">
                                 <input type="hidden" name="ctlr" value="admin" />
                                 <input type="hidden" name="action" value="register" />
                                 <div class="con-item col-xs-12">
