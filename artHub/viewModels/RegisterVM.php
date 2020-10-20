@@ -58,7 +58,7 @@ class RegisterVM {
             // $error[] = $this->errorMsg;
         }
             else{
-            $this->errorMsg = "Please enter your first name.";
+            $this->errorMsg = "Please enter your first name.:";
             $this->error[] = $this->errorMsg;
 
         }
@@ -66,7 +66,7 @@ class RegisterVM {
             // $error[] = $this->errorMsg;
         }
             else {
-            $this->errorMsg = "Please enter your last name.";
+            $this->errorMsg = "Please enter your last name.:";
             $this->error[] = $this->errorMsg;
 
         }
@@ -74,46 +74,46 @@ class RegisterVM {
             // $error[] = $this->errorMsg;
         }
             else {
-            $this->errorMsg = "Please enter a valid email address.";
+            $this->errorMsg = "Please enter a valid email address.:";
             $this->error[] = $this->errorMsg;
         }
         if(preg_match("/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/", $this->newUser->phone)) {
             // $error[] = $this->errorMsg;
         }
             else {
-            $this->errorMsg = "Please enter phone number in the following format: ###-###-####";
+            $this->errorMsg = "Please enter phone number in the following format: ###-###-####:";
             $this->error[] = $this->errorMsg;
         }
         if($this->enteredPW != null) {
             // $error[] = $this->errorMsg;
         }
             else {
-            $this->errorMsg = "A password is required.";
+            $this->errorMsg = "A password is required.:";
             $this->error[] = $this->errorMsg;
         }
         if($this->enteredConfPW != null) {
             // $error[] = $this->errorMsg;
         }
             else {
-            $this->errorMsg = "Please confirm your password.";
+            $this->errorMsg = "Please confirm your password.:";
             $this->error[] = $this->errorMsg;
         }
         if($this->enteredPW != $this->enteredConfPW){
-            $this->errorMsg = "Your passwords do not match.";
+            $this->errorMsg = "Your passwords do not match.:";
             $this->error[] = $this->errorMsg;
         }
         if($this->error == null){
             $success = true;
         }
         // print_r($this->error);
-        $this->printError($this->error);
+        // $this->printError($this->error);
         return $success;
     }
 
     public function printError($error) {
         foreach($this->error as $message)
             echo $message . "<br />";
-        return $message;
+        return $this->message;
     }
     
 }

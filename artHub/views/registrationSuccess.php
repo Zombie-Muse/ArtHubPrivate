@@ -357,10 +357,10 @@
                         <section>
                             <h1>All user registration inputs are valid!</h1>
                             <!-- <p>Display the user inputs on this page.</p> -->
-	                        <p>First name: <?php echo $vm->newUser->f_name; ?><br>
-	                        Last name: <?php echo $vm->newUser->l_name; ?><br>
-	                        Email address: <?php echo $vm->newUser->id; ?><br>
-	                        Phone number: <?php echo $vm->newUser->phone; ?></p>
+	                        <p>First Name: <?php echo $vm->newUser->f_name; ?><br>
+	                        Last Name: <?php echo $vm->newUser->l_name; ?><br>
+	                        Email Address: <?php echo $vm->newUser->id; ?><br>
+	                        Phone Number: <?php echo $vm->newUser->phone; ?></p>
     
                         </section>
                             <!-- <h1>Sign Up</h1>

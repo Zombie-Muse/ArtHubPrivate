@@ -357,101 +357,10 @@
                         <section>
                             <h1>Please fix the following errors: </h1>
                             <!-- <p>Add code to display validation and sanitization errors</p> -->
-	                        <p><?php print_r($vm->error); ?></p>
+                            <p><?php print_r($vm->error); ?></p>
     
                         </section>
-                            <!-- <h1>Sign Up</h1>
-                            <p>Register for an account to start uploading your art right away!</p> -->
-                            <?php 
-                                //if ($vm != null) {
-                                    //if ($vm->errorMsg != '') { ?>
-                                        <p> <?php //echo implode($vm->errorMsg); ?></p>
-                                    <?php// }
-                           // }?>
-                            <!-- <form action="." method="post" id="register_user">
-                                <input type="hidden" name="ctlr" value="admin" />
-                                <input type="hidden" name="action" value="register" />
-                                <div class="con-item col-xs-12">
-                                    <label>First Name</label>
-                                    <input type="text" name="f_name" aria-required="true">
-                                </div>
-                                <div class="con-item col-xs-12">
-                                    <label>Last Name</label>
-                                    <input type="text" name="l_name" aria-required="true">
-                                </div>
-                                end con-item
-                                <div class="con-item col-xs-12">
-                                    <label>Email</label>
-                                    <input type="text" name="email" aria-required="true">
-                                </div> -->
-                                <!-- end con-item -->
-                                <!-- <div class="con-item col-xs-12">
-                                    <label>Phone</label>
-                                    <input type="text" name="phone" placeholder="xxx-xxx-xxxx" aria-required="true">
-                                </div> -->
-                                <!-- end con-item -->
-                                <!-- <div class="con-item col-xs-12">
-                                    <label>Password</label>
-                                    <input type="password" name="password" aria-required="true">
-                                </div> -->
-                                <!-- end con-item -->
-                                <!-- <div class="con-item col-xs-12">
-                                    <label>Confirm Password</label>
-                                    <input type="password" name="confirmPassword" aria-required="true">
-                                </div> -->
-                                <!-- end con-item -->
-                                <!-- <div class="con-item col-xs-12">
-                                    <label>&nbsp;</label>
-                                    <button type="submit">
-                                        <i class="fa fa-paper-plane"></i> Sign Up
-                                    </button> -->
-                                <!-- </div> -->
-                                <!-- end con-item -->
-                            <!-- </form> -->
                         </div>
-                        <!-- end contact-form -->
-                        <!-- <div class="contact-details col-md-4 col-xs-12">
-                            <div class="con-widget">
-                                <h1>phone</h1>
-                                <p>Phone: +2 (002) 040-243-47-76</p>
-                                <p>mobile: +2 (002) 010-245-170-52</p>
-                            </div> -->
-                            <!-- end con-wiget -->
-                            <!-- <div class="con-widget">
-                                <h1>Address</h1>
-                                <p>presso Business Center, 001egypt, cairo Creative Street 15/4</p>
-                            </div> -->
-                            <!-- end con-wiget -->
-                            <!-- <div class="con-widget">
-                                <h1>Email</h1>
-                                <p>General: hello@themelap.com</p>
-                                <p>Sec: hello@presso.com</p>
-                            </div> -->
-                            <!-- end con-wiget -->
-                            <!-- <div class="con-widget">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-pinterest"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div> -->
                             <!-- end con-wiget -->
                         </div>
                         <!-- end contact-details -->
