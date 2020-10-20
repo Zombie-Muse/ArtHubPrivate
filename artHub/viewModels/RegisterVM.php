@@ -14,6 +14,7 @@ class RegisterVM {
     public $errorMsg;
     public $statusMsg;
     public $newUser;
+    public $message;
     public $error = array();
     
     // User type constants used for switching in the controller.
@@ -27,6 +28,7 @@ class RegisterVM {
         $this->enteredConfPW = '';
         $this->registrationType = self::INVALID_REGISTRATION;
         $this->newUser = null;
+        $this->printError($this->error);
     }
 
     public static function getInstance() {
@@ -103,7 +105,15 @@ class RegisterVM {
         if($this->error == null){
             $success = true;
         }
-        print_r($this->error);
+        // print_r($this->error);
+        $this->printError($this->error);
         return $success;
     }
+
+    public function printError($error) {
+        foreach($this->error as $message)
+            echo $message . "<br />";
+        return $message;
+    }
+    
 }
