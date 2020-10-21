@@ -25,6 +25,10 @@ class HomeController extends DefaultController {
         Page::$title = 'ArtHub - ' . $vm->product->name;
         require(APP_NON_WEB_BASE_DIR .'views/productView.php');
     }
+    public function invalidForm() {
+        Page::$title = 'ArtHub - Invalid Form';
+        require(APP_NON_WEB_BASE_DIR .'views/invalidForm.php');
+    }
     
     public function getAppraisalStatus() {
         before_every_protected_page();

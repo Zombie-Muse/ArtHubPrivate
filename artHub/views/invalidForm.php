@@ -349,68 +349,16 @@
                             </div>
 
                         </div> -->
-                        <!-- End Google Map -->
                     </div>
-                    <!-- end contact-map -->
                     <div class="contact-data col-xs-12">
                         <div class="contact-form col-md-8 col-xs-12">
-                            <h1>Sign Up</h1>
-                            <p>Register for an account to start uploading your art right away!</p>
-                            <?php 
-                                if ($vm != null) {
-                                    if ($vm->errorMsg != '') { ?>
-                                        <p> <?php echo $vm->errorMsg; ?></p>
-                                    <?php }
-                            }?>
-                            <form action="." method="post" id="register_user">
-                                <input type="hidden" name="ctlr" value="admin" />
-                                <input type="hidden" name="action" value="register" />
-                                    <?php echo csrf_token_tag(); ?>
-                                <div class="con-item col-xs-12">
-                                    <label>First Name</label>
-                                    <input type="text" name="f_name" aria-required="true">
-                                </div>
-                                <div class="con-item col-xs-12">
-                                    <label>Last Name</label>
-                                    <input type="text" name="l_name" aria-required="true">
-                                </div>
-                                <!-- end con-item -->
-                                <div class="con-item col-xs-12">
-                                    <label>Email</label>
-                                    <input type="text" name="email" aria-required="true">
-                                </div>
-                                <!-- end con-item -->
-                                <div class="con-item col-xs-12">
-                                    <label>Phone</label>
-                                    <input type="text" name="phone" placeholder="format numeber as ###-###-####" aria-required="true">
-                                </div>
-                                <!-- end con-item -->
-                                <div class="con-item col-xs-12">
-                                    <label>Password</label>
-                                    <input type="password" name="password" aria-required="true">
-                                </div>
-                                <!-- end con-item -->
-                                <div class="con-item col-xs-12">
-                                    <label>Confirm Password</label>
-                                    <input type="password" name="confirmPassword" aria-required="true">
-                                </div>
-                                <!-- end con-item -->
-                                <div class="con-item col-xs-12">
-                                    <label>&nbsp;</label>
-                                    <button type="submit">
-                                        <i class="fa fa-paper-plane"></i> Sign Up
-                                    </button>
-                                </div>
-                                <!-- end con-item -->
-                            </form>
+                        <section>
+                        <h1>Invalid or expired form!</h1>
+                        </section>
                         </div>
-                        
                         </div>
-                        <!-- end contact-details -->
                     </div>
-                    <!-- end contact-data -->
                 </div>
-                <!-- end container -->
             </section>
             <!-- end contact-box -->
             <section class="purchase-item col-xs-12">
@@ -665,10 +613,10 @@
     <script src="js/fire.js" type="text/javascript"></script>
     <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
     <script src="js/jquery.appear.js" type="text/javascript"></script>
-    <!-- <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="js/jquery.countTo.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         var position = [41.5959739, 12.32423269999997];
 
         function initialize() {
@@ -695,7 +643,7 @@
             });
         }
         google.maps.event.addDomListener(window, 'load', initialize);
-    </script> -->
+    </script>
 </body>
 
 </html>
