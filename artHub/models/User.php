@@ -8,8 +8,9 @@
  */
 class User {
 
-    private $f_Name;
-    private $l_Name;
+    private $id;
+    private $firstName;
+    private $lastName;
     private $email;
 	private $phoneNumber;
     private $password;

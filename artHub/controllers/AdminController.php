@@ -17,7 +17,23 @@ class AdminController extends DefaultController {
 
     public function loginGET() {
         Page::$title = 'ArtHub - Login';
-        require(APP_NON_WEB_BASE_DIR . 'views/adminLogin.php');
+        require(APP_NON_WEB_BASE_DIR . 'views/login.php');
+    }
+
+    public function loginPOST() {
+        after_successful_logout();
+        $vm = LoginVM::getInstance();
+        if ($vm->userType === LoginVM::VALID_LOGIN) {
+            $this->listProducts();
+        } else {
+            Page::$title = 'Invalid Credentials';
+            require(APP_NON_WEB_BASE_DIR .'views/loginFailed.php');
+        }
+    }
+
+    public function logout() {
+        after_successful_logout();
+        require(APP_NON_WEB_BASE_DIR .'views/cycleTracks.php');
     }
 
     public function registerGET() {

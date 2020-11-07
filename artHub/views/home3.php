@@ -211,7 +211,7 @@
                             </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="login.html">Login</a>
+                                        <a href="?ctlr=admin&amp;action=login">Login</a>
                                     </li>
                                     <li>
                                         <a href="?ctlr=admin&amp;action=register">Register</a>

@@ -307,15 +307,15 @@
                 </header>
                 <!-- end main-header -->
                 <div class="presso-nav top-section col-xs-12">
-                    <h1>Register</h1>
+                    <h1>Sign In</h1>
                     <p>or</p>
                     <ul>
                         <li>
-                            <a href="?ctlr=admin&amp;action=login">Sign In</a>
+                            <a class="active">Sign In</a>
                         </li>
                         <li><span>/</span></li>
                         <li>
-                            <a class="active">Register</a>
+                            <a href="?ctlr=admin&amp;action=register">Resgister</a>
                         </li>
                     </ul>
                     <b>
@@ -354,35 +354,21 @@
                     <!-- end contact-map -->
                     <div class="contact-data col-xs-12">
                         <div class="contact-form col-md-8 col-xs-12">
-                            <h1>Sign Up</h1>
-                            <p>Register for an account to start uploading your art right away!</p>
+                            <h1>Sign In</h1>
+                            <p>Login to your existing account</p>
                             <?php 
                                 if ($vm != null) {
                                     if ($vm->errorMsg != '') { ?>
                                         <p> <?php echo $vm->errorMsg; ?></p>
                                     <?php }
                             }?>
-                            <form action="." method="post" id="register_user">
+                            <form action="." method="post" id="login_user">
                                 <input type="hidden" name="ctlr" value="admin" />
-                                <input type="hidden" name="action" value="register" />
+                                <input type="hidden" name="action" value="login" />
                                     <?php echo csrf_token_tag(); ?>
                                 <div class="con-item col-xs-12">
-                                    <label>First Name</label>
-                                    <input type="text" name="f_name" aria-required="true">
-                                </div>
-                                <div class="con-item col-xs-12">
-                                    <label>Last Name</label>
-                                    <input type="text" name="l_name" aria-required="true">
-                                </div>
-                                <!-- end con-item -->
-                                <div class="con-item col-xs-12">
                                     <label>Email</label>
-                                    <input type="text" name="email" aria-required="true">
-                                </div>
-                                <!-- end con-item -->
-                                <div class="con-item col-xs-12">
-                                    <label>Phone</label>
-                                    <input type="text" name="phone" placeholder="format numeber as ###-###-####" aria-required="true">
+                                    <input type="text" name="username" aria-required="true">
                                 </div>
                                 <!-- end con-item -->
                                 <div class="con-item col-xs-12">
@@ -391,14 +377,9 @@
                                 </div>
                                 <!-- end con-item -->
                                 <div class="con-item col-xs-12">
-                                    <label>Confirm Password</label>
-                                    <input type="password" name="confirmPassword" aria-required="true">
-                                </div>
-                                <!-- end con-item -->
-                                <div class="con-item col-xs-12">
                                     <label>&nbsp;</label>
-                                    <button type="submit">
-                                        <i class="fa fa-paper-plane"></i> Sign Up
+                                    <button type="submit" class="btn btn-outline-dark btn-lg">
+                                        <!--<i class="btn btn-outline-dark btn-lg"></i>--> Sign In
                                     </button>
                                 </div>
                                 <!-- end con-item -->
