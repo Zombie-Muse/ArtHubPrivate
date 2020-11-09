@@ -159,3 +159,15 @@ function goToInvalidSessionPage() {
     exit;
 }
 
+function record_failed_login($username) {
+
+}
+
+function clear_failed_logins($username) {
+
+}
+
+function throttle_failed_logins($username) {
+    
+}
+

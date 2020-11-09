@@ -39,6 +39,7 @@ class LoginVM {
             $_SESSION ['userId'] = $vm->enteredUserId;
         } else {
              $vm->userType = self::INVALID_LOGIN;
+             record_failed_login($user);
         }
         return $vm;
     }
