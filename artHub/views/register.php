@@ -368,11 +368,11 @@
                                     <?php echo csrf_token_tag(); ?>
                                 <div class="con-item col-xs-12">
                                     <label>First Name</label>
-                                    <input type="text" name="f_name" aria-required="true">
+                                    <input type="text" name="firstName" aria-required="true">
                                 </div>
                                 <div class="con-item col-xs-12">
                                     <label>Last Name</label>
-                                    <input type="text" name="l_name" aria-required="true">
+                                    <input type="text" name="lastName" aria-required="true">
                                 </div>
                                 <!-- end con-item -->
                                 <div class="con-item col-xs-12">
@@ -382,7 +382,7 @@
                                 <!-- end con-item -->
                                 <div class="con-item col-xs-12">
                                     <label>Phone</label>
-                                    <input type="text" name="phone" placeholder="format numeber as ###-###-####" aria-required="true">
+                                    <input type="text" name="phone" placeholder="format number as ###-###-####" aria-required="true">
                                 </div>
                                 <!-- end con-item -->
                                 <div class="con-item col-xs-12">

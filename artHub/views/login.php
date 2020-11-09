@@ -356,12 +356,6 @@
                         <div class="contact-form col-md-8 col-xs-12">
                             <h1>Sign In</h1>
                             <p>Login to your existing account</p>
-                            <?php 
-                                if ($vm != null) {
-                                    if ($vm->errorMsg != '') { ?>
-                                        <p> <?php echo $vm->errorMsg; ?></p>
-                                    <?php }
-                            }?>
                             <form action="." method="post" id="login_user">
                                 <input type="hidden" name="ctlr" value="admin" />
                                 <input type="hidden" name="action" value="login" />

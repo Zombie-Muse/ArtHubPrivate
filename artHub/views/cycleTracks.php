@@ -356,12 +356,7 @@
                         <div class="contact-form col-md-8 col-xs-12">
                             <h1>????</h1>
                             <p>WTF is this page?</p>
-                            <?php 
-                                if ($vm != null) {
-                                    if ($vm->errorMsg != '') { ?>
-                                        <p> <?php echo $vm->errorMsg; ?></p>
-                                    <?php }
-                            }?>
+                            
                             <!--<form action="." method="post" id="login_user">
                                 <input type="hidden" name="ctlr" value="admin" />
                                 <input type="hidden" name="action" value="login" />-->

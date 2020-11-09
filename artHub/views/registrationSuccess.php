@@ -311,7 +311,7 @@
                     <p>or</p>
                     <ul>
                         <li>
-                            <a href="#">Sign In</a>
+                            <a href="?ctlr=admin&amp;action=login">Sign In</a>
                         </li>
                         <li><span>/</span></li>
                         <li>
@@ -352,13 +352,13 @@
                         <!-- End Google Map -->
                     </div>
                     <!-- end contact-map -->
-                    <div class="contact col-xs-12">
+                    <div class="contact col-xs-12 text-center">
                         <div class="contact-form col-md-8 col-xs-12">
                         <section>
                             <h1>All user registration inputs are valid!</h1>
                             <!-- <p>Display the user inputs on this page.</p> -->
-	                        <p>First Name: <?php echo $vm->newUser->f_name; ?><br>
-	                        Last Name: <?php echo $vm->newUser->l_name; ?><br>
+	                        <p>First Name: <?php echo $vm->newUser->firstName; ?><br>
+	                        Last Name: <?php echo $vm->newUser->lastName; ?><br>
 	                        Email Address: <?php echo $vm->newUser->id; ?><br>
 	                        Phone Number: <?php echo $vm->newUser->phone; ?></p>
     

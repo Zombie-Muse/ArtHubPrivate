@@ -7,7 +7,7 @@
         </div>
         <form action="." method="post">
         <input type="hidden" name="ctlr" value="admin">
-        <input type="hidden" name="action" value="listProducts">
+        <input type="hidden" name="action" value="login">
         <label>Username:</label>
         <input type="text" name="username">
         <label>&nbsp;Password:</label>

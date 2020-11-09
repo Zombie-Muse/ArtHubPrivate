@@ -56,7 +56,7 @@ class AdminController extends DefaultController {
     public function listProducts() {
         $vm = ProductsVM::getCategoryInstance();
         Page::$title = 'Product Mgr - ' . $vm->category->name;
-        require(APP_NON_WEB_BASE_DIR . 'views/adminProductList.php');
+        require(APP_NON_WEB_BASE_DIR . 'views/cycleTracks.php');
     }
 
     public function viewProduct() {
