@@ -24,11 +24,17 @@ class AdminController extends DefaultController {
         after_successful_logout();
         $vm = LoginVM::getInstance();
         if ($vm->userType === LoginVM::VALID_LOGIN) {
-            $this->listProducts();
+            $this->loginSuccess();
         } else {
             Page::$title = 'Invalid Credentials';
             require(APP_NON_WEB_BASE_DIR .'views/loginFailed.php');
         }
+    }
+
+    public function loginSuccess() {
+        $vm = ProductsVM::getCategoryInstance();
+        Page::$title = 'Product Mgr - ' . $vm->category->name;
+        require(APP_NON_WEB_BASE_DIR . 'views/loginSuccess.php');
     }
 
     public function logout() {

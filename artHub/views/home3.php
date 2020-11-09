@@ -29,7 +29,7 @@
 </head>
 
 <body>
-<div class="presso-preloader">
+<!-- <div class="presso-preloader">
     <div class='loader'>
         <div class='loader--dot'></div>
         <div class='loader--dot'></div>
@@ -37,7 +37,7 @@
         <div class='loader--dot'></div>
         <div class='loader--dot'></div>
         <div class='loader--dot'></div>
-  </div>
+  </div> -->
 </div><!-- end presso-preloader -->
     <div class="main-wrapper col-xs-12">
         <div class="side-mobile-nav">

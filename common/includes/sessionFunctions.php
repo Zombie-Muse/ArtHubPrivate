@@ -159,7 +159,13 @@ function goToInvalidSessionPage() {
     exit;
 }
 
-function record_failed_login($username) {
+function record_failed_login($userID) {
+    $failedLogin = readUser($userID)
+    $failedLogin = [
+        'username' => sql_prep($username),
+        'count' => 1,
+        'lastTime' => time()
+    ];
 
 }
 

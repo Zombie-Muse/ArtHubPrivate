@@ -354,11 +354,8 @@
                     <!-- end contact-map -->
                     <div class="contact-data col-xs-12">
                         <div class="contact-form col-md-8 col-xs-12">
-                        <h1>You Suck!!</h1>
-                        <h2>Login Failed</h2>
-                        <p><a href="?ctlr=admin&action=login" title="Log In">Try again?</a></p>
-                        <p><a href="?" title="Home" class="current">home</a></p>
-
+                            <h1>Great Success!!</h1>
+                            <p>You are logged in!</p>
                             
                         </div>
                         
@@ -656,11 +653,3 @@
 </body>
 
 </html>
-?php require('views/guitarShopHeader.php'); ?>
-<div id="content">
-    <h2>Login Failed</h2>
-    <p><a href="?ctlr=admin&action=login" title="Log In">Try again?</a></p>
-    <p><a href="?" title="Home" class="current">home</a></p>
-</div>
-<?php
-require('views/guitarShopFooter.php');
