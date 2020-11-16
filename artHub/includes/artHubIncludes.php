@@ -23,6 +23,7 @@ include_once(APP_NON_WEB_BASE_DIR .'db/CategoryDAM.php');                       
 // include_once(APP_NON_WEB_BASE_DIR .'db/CategoryDAMAchtung.php');
 include_once(APP_NON_WEB_BASE_DIR .'db/ProductDAM.php');                            //secure code
 // include_once(APP_NON_WEB_BASE_DIR .'db/ProductDAMAchtung.php');
+// include_once(APP_NON_WEB_BASE_DIR .'db/FailDAM.php');                               //added for failed attempts
 include_once(APP_NON_WEB_BASE_DIR .'viewModels/Page.php');
 include_once(APP_NON_WEB_BASE_DIR .'viewModels/MessageVM.php');
 include_once(APP_NON_WEB_BASE_DIR .'viewModels/ProductsVM.php');

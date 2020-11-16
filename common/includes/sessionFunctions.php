@@ -159,21 +159,52 @@ function goToInvalidSessionPage() {
     exit;
 }
 
-function record_failed_login($userID) {
-    $failedLogin = readUser($userID)
-    $failedLogin = [
-        'username' => sql_prep($username),
-        'count' => 1,
-        'lastTime' => time()
-    ];
+// function record_failed_login($userID) {
+//     $fail = new failDAM;
+//     $failed = $fail->readFailUser($username);
+//     $failCount = $failed['count'];
 
-}
+//         if(!isset($failCount)) {
+//             $failedLogin = [
+//                 'userID' => sql_prep($userID),
+//                 'count' => 1,
+//                 'lastTime' => time()
+//             ];
+//             writeFailUser('failAttempts', $failedLogin);
+//         } else {
+//             $failedLogin['count'] = $failedLogin['count'] + 1;
+//             $failedLogin['lastTime'] = time();
+//             updateFailUser('failAttempts', 'userID', $failedLogin);
+//          }
 
-function clear_failed_logins($username) {
+//          return true;
+// }
 
-}
+// function clear_failed_logins($userID) {
+//     $failedLogin = readFailUser('count', 'userID', sql_prep($userID));
 
-function throttle_failed_logins($username) {
-    
-}
+//         if(isset($failedLogin)) {
+//             $failedLogin['count'] = 0;
+//             $failedLogin['lastTime'] = time();
+//             updateFailUser('count', 'userID', $failedLogin);
+//         }
+
+//         return true;
+// }
+
+// function throttle_failed_logins($userID) {
+//     $throttleAt = 3;
+//     $delayInMinutes = 3;
+//     $delay = 60 * $delayInMinutes;
+
+//     $failedLogin = readFailUser($userID);
+
+//         if(isset($failedLogin) && $failedLogin['count'] >= $throttleAt) {
+//             $remainingDelay = ($failedLogin['lastTime'] + $delay) - time();
+//             $remainingDelayInMinutes = ceil($remainingDelay / 60);
+//             return $remainingDelayInMinutes;
+//         } else {
+//             return 0;
+//         }
+// }
 

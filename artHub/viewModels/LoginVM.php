@@ -33,13 +33,14 @@ class LoginVM {
         $user = $vm->userDAM->readUser($vm->enteredUserId);
         if ($vm->authenticateUser($user)) {
             $vm->userType = self::VALID_LOGIN;
+            // clear_failed_logins($user);
             session_start();
             after_successful_login();
             $_SESSION ['userName'] = $user->firstName . ' ' . $user->lastName;
             $_SESSION ['userId'] = $vm->enteredUserId;
         } else {
              $vm->userType = self::INVALID_LOGIN;
-             record_failed_login($user);
+            //  record_failed_login($user);
         }
         return $vm;
     }

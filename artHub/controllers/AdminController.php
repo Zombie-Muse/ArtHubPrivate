@@ -21,13 +21,14 @@ class AdminController extends DefaultController {
     }
 
     public function loginPOST() {
-        after_successful_logout();
-        $vm = LoginVM::getInstance();
-        if ($vm->userType === LoginVM::VALID_LOGIN) {
-            $this->loginSuccess();
-        } else {
-            Page::$title = 'Invalid Credentials';
-            require(APP_NON_WEB_BASE_DIR .'views/loginFailed.php');
+        $userID = hPOST('username');
+            after_successful_logout();
+            $vm = LoginVM::getInstance();
+            if ($vm->userType === LoginVM::VALID_LOGIN) {
+                $this->loginSuccess();
+            } else {
+                Page::$title = 'Invalid Credentials';
+                require(APP_NON_WEB_BASE_DIR .'views/loginFailed.php');
         }
     }
 
