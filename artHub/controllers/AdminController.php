@@ -79,9 +79,9 @@ class AdminController extends DefaultController {
         require(APP_NON_WEB_BASE_DIR . 'views/adminProductList.php');
     }
     
-    public function showAddProduct() {
-        Page::$title = 'Product Mgr - Add Product';
-        require(APP_NON_WEB_BASE_DIR . 'views/addProduct.php');
+    public function showAddProduct() {                                      //Change to reflect upload page
+        Page::$title = 'Admin - Upload';
+        require(APP_NON_WEB_BASE_DIR . 'views/upload.php');
     }
     
     public function addEditProduct() {

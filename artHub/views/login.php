@@ -84,7 +84,6 @@
     <script src="js/fire.js" type="text/javascript"></script>
     <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
     <script src="js/jquery.appear.js" type="text/javascript"></script>
-    <!-- <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
     <script src="js/jquery.countTo.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
 

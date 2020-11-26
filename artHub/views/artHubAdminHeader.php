@@ -39,7 +39,7 @@
         <div class='loader--dot'></div>
   </div>
 </div><!-- end presso-preloader -->
-    <div class="main-wrapper col-xs-12">
+<div class="main-wrapper col-xs-12">
         <div class="side-mobile-nav">
             <h2>
                 <img src="images/ArtHubLogo1.png" alt="logo">
@@ -66,7 +66,7 @@
                     <a href="shop.html">shop</a>
                 </li>
                 <li>
-                    <a href="?ctlr=admin&amp;action=login">Login</a>
+                    <a href="?ctlr=admin&amp;action=login">Log Out</a>
                 </li>
                 <li>
                     <a href="contact1.html">Contact</a>
@@ -136,15 +136,18 @@
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                Login/Register
+                                Profile
                                 <i class="fa fa-angle-down"></i>
                             </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=login">Login</a>
+                                        <a href="?ctlr=admin&amp;action=login">Portfolio</a>
                                     </li>
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=register">Register</a>
+                                        <a href="?ctlr=admin&amp;action=register">Upload</a>
+                                    </li>
+                                    <li>
+                                        <a href="?ctlr=admin&amp;action=register">Log Out</a>
                                     </li>
                                 </ul>
                             </li>
