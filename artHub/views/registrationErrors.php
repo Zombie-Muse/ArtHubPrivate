@@ -33,7 +33,7 @@
                         <div class="contact-form col-md-8 col-xs-12">
                         <h1>Please fix the following errors: </h1>
                             <!-- <p>Add code to display validation and sanitization errors</p> -->
-                            <p><?php print_r($vm->error); ?></p>
+                            <p><?php print_r($vm->errorMsg); ?></p>
                         </div>
                         <!-- end contact-details -->
                     </div>

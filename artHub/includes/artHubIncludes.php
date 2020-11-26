@@ -15,7 +15,7 @@ include_once(APP_NON_WEB_BASE_DIR .'controllers/DefaultController.php');
 include_once(APP_NON_WEB_BASE_DIR .'controllers/HomeController.php');
 include_once(APP_NON_WEB_BASE_DIR .'controllers/CartController.php');
 include_once(APP_NON_WEB_BASE_DIR .'controllers/AdminController.php');
-include_once(APP_NON_WEB_BASE_DIR .'controllers/GalleryController.php');
+include_once(APP_NON_WEB_BASE_DIR .'controllers/GalleryController.php');            //added for navigation the the gallery page
 include_once(APP_NON_WEB_BASE_DIR .'models/Category.php');
 include_once(APP_NON_WEB_BASE_DIR .'models/Product.php');
 include_once(APP_NON_WEB_BASE_DIR .'models/User.php');                             //added user page
