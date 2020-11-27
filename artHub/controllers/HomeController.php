@@ -20,10 +20,10 @@ class HomeController extends DefaultController {
         require(APP_NON_WEB_BASE_DIR .'views/categoryProductList.php');
     }
     
-    public function viewProduct() {
+    public function viewProduct() {                             //maybe this can be portfolio page?  Nope
         $vm = ProductsVM::getProductInstance();
         Page::$title = 'ArtHub - ' . $vm->product->name;
-        require(APP_NON_WEB_BASE_DIR .'views/productView.php');
+        require(APP_NON_WEB_BASE_DIR .'views/portfolio.php');
     }
     public function invalidForm() {
         Page::$title = 'ArtHub - Invalid Form';

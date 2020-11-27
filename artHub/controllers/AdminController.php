@@ -97,6 +97,11 @@ class AdminController extends DefaultController {
         require(APP_NON_WEB_BASE_DIR . 'views/editProduct.php');
     }
 
+    public function showPortfolio() {                                  //new method to link to portfolio
+        Page::$title = 'Arthub - Portfolio';
+        require(APP_NON_WEB_BASE_DIR . 'views/portfolio.php');
+    }
+
     private function goToView($vm) {
 
         // if an error message exists, display the error.
