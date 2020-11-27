@@ -4,7 +4,7 @@
 </div><!-- end presso-preloader -->
     <div class="main-wrapper col-xs-12">
         <div class="mask-inner col-xs-12">
-            <section class="presso-header col-xs-12" data-background="images/section-bj/section-bj.jpg">
+            <section class="presso-header col-xs-12" data-background="https://www.placecage.com/g/800/800">
                 
                 <div class="presso-nav top-section col-xs-12">
                     <h1>Register</h1>
@@ -83,7 +83,6 @@
     <script src="js/fire.js" type="text/javascript"></script>
     <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
     <script src="js/jquery.appear.js" type="text/javascript"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="js/jquery.countTo.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
 

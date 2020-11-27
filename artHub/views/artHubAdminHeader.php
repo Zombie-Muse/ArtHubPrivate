@@ -66,7 +66,7 @@
                     <a href="shop.html">shop</a>
                 </li>
                 <li>
-                    <a href="?ctlr=admin&amp;action=login">Log Out</a>
+                    <a href="?ctlr=admin&amp;action=logout">Log Out</a>
                 </li>
                 <li>
                     <a href="contact1.html">Contact</a>
@@ -107,16 +107,16 @@
                             </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=">Browse by Artist</a>
+                                        <a href="?ctlr=gallery&amp;action=viewGallery">Browse by Artist</a>
                                     </li>
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=addProduct">Browse by Title</a>
+                                        <a href="?ctlr=gallery&amp;action=viewGallery">Browse by Title</a>
                                     </li>
                                     <li>
                                         <a href="?ctlr=gallery&amp;action=viewGallery">Browse by Subject</a>
                                     </li>
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=addProduct">Browse by Medium</a>
+                                        <a href="?ctlr=gallery&amp;action=viewGallery">Browse by Medium</a>
                                     </li>
                                 </ul>
                             </li>
@@ -141,13 +141,13 @@
                             </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=login">Portfolio</a>
+                                        <a href="?ctlr=admin&amp;action=portfolio">Portfolio</a>
                                     </li>
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=register">Upload</a>
+                                        <a href="?ctlr=admin&amp;action=addProduct">Upload</a>
                                     </li>
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=register">Log Out</a>
+                                        <a href="?ctlr=admin&amp;action=logout">Log Out</a>
                                     </li>
                                 </ul>
                             </li>

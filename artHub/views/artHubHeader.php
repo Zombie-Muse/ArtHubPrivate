@@ -107,16 +107,16 @@
                             </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=">Browse by Artist</a>
+                                        <a href="?ctlr=gallery&amp;action=viewGallery">Browse by Artist</a>
                                     </li>
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=addProduct">Browse by Title</a>
+                                        <a href="?ctlr=gallery&amp;action=viewGallery">Browse by Title</a>
                                     </li>
                                     <li>
                                         <a href="?ctlr=gallery&amp;action=viewGallery">Browse by Subject</a>
                                     </li>
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=addProduct">Browse by Medium</a>
+                                        <a href="?ctlr=gallery&amp;action=viewGallery">Browse by Medium</a>
                                     </li>
                                 </ul>
                             </li>

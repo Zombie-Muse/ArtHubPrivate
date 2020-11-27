@@ -2,7 +2,7 @@
 
 
         <div class="mask-inner col-xs-12">
-            <section class="presso-header col-xs-12" data-background="https://lh3.googleusercontent.com/proxy/BeSonIHXNdMi13WA1tIKoFF3LDt9eNNG_IdXufbV5MbWCfcRgC_aaFMd1GdFlhaOMztNqp1egoGOvV_wF9D0psnC4deUI1ebh2gaGfyaGNO6XHRWG-22Uvaoj2GGCQSg7lkWOqwP8Jm8bCyRqbjO-kZN">
+            <section class="presso-header col-xs-12" data-background="https://www.placecage.com/g/800/800">
                 
                 <!-- end main-header -->
                 <div class="presso-nav top-section col-xs-12">
@@ -113,7 +113,6 @@
     <script src="js/fire.js" type="text/javascript"></script>
     <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
     <script src="js/jquery.appear.js" type="text/javascript"></script>
-    <!-- <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
     <script src="js/jquery.countTo.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
     

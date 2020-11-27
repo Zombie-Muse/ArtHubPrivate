@@ -40,7 +40,7 @@ class AdminController extends DefaultController {
 
     public function logout() {
         after_successful_logout();
-        require(APP_NON_WEB_BASE_DIR .'views/cycleTracks.php');
+        require(APP_NON_WEB_BASE_DIR .'views/home3.php');             //require(APP_NON_WEB_BASE_DIR .'views/cycleTracks.php');
     }
 
     public function registerGET() {
@@ -79,16 +79,16 @@ class AdminController extends DefaultController {
         require(APP_NON_WEB_BASE_DIR . 'views/adminProductList.php');
     }
     
-    public function showAddProduct() {                                      //Change to reflect upload page
+    public function showAddProduct() {                                      //Changed to reflect upload page
         Page::$title = 'Admin - Upload';
         require(APP_NON_WEB_BASE_DIR . 'views/upload.php');
     }
     
-    public function addEditProduct() {
+    public function addEditProduct() {                                      //changed to reflect upload page
         $vmAdd = ProductsVM::getAddEditInstance();
         $vm = ProductsVM::getCategoryInstance($vmAdd->category->id);
         Page::$title = 'Product Mgr - ' . $vm->category->name;
-        require(APP_NON_WEB_BASE_DIR . 'views/adminProductList.php');
+        require(APP_NON_WEB_BASE_DIR . 'views/upload.php');       //old ref  require(APP_NON_WEB_BASE_DIR . 'views/adminProductList.php');
     }
     
     public function showEditProduct() {

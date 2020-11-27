@@ -4,10 +4,10 @@
 </div><!-- end presso-preloader -->
     <div class="main-wrapper col-xs-12">
         <div class="mask-inner col-xs-12">
-            <section class="presso-header col-xs-12" data-background="images/section-bj/section-bj.jpg">
+            <section class="presso-header col-xs-12" data-background="https://www.placecage.com/c/800/800">
                 
                 <div class="presso-nav top-section col-xs-12">
-                    <h1>Register</h1>
+                    <h1>Sign In</h1>
                     <p>or</p>
                     <ul>
                         <li>

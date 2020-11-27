@@ -1,4 +1,13 @@
-<?php require('artHubHeader.php'); ?>
+<?php 
+    if (confirm_user_logged_in()) {
+        require('artHubAdminHeader.php');
+    } else {
+        after_successful_logout();
+        require('artHubHeader.php');
+    }
+ ?>
+
+
             <section class="main-slider js-height-full col-xs-12">
                 <div class="fullwidth-slider col-xs-12">
                     <div class="full-item" data-background="https://i.kym-cdn.com/photos/images/original/000/334/315/b69.jpg">

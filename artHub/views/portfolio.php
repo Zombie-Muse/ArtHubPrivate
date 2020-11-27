@@ -1,4 +1,4 @@
-<?php require('artHubHeader.php'); ?>
+<?php require('artHubAdminHeader.php'); ?>
 
 
     <div class="main-wrapper col-xs-12">
@@ -8,14 +8,14 @@
                 
                 <!-- end main-header -->
                 <div class="presso-nav top-section col-xs-12">
-                    <h1>ArtHub Gallery</h1>
+                    <h1>Portfolio</h1>
                     <ul>
                         <li>
                             <a href="?ctlr=admin&amp;action=home">home</a>
                         </li>
                         <li><span>/</span></li>
                         <li>
-                            <a class="active">gallery</a>
+                            <a class="active">portfolio</a>
                         </li>
                     </ul>
                     <b class="brown">
@@ -245,18 +245,7 @@
                 <!-- end gallery-more-action -->
             </section>
             <!-- end gallery -->
-            <section class="purchase-item col-xs-12">
-                <div class="container">
-                    <p>
-                        <b class="fa fa-thumbs-o-up"></b>
-                        <span>Unlimited possibilities with presso Creative Agency</span>
-                        <a href="#">
-                            <i class="fa fa-shopping-cart"></i> discover more
-                        </a>
-                    </p>
-                </div>
-                <!-- end container -->
-            </section>
+            
             <!-- end purchase-item -->
             
             <div class="toTop col-xs-12 text-center">

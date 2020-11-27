@@ -111,7 +111,7 @@ function is_logged_in() {
 function confirm_user_logged_in() {
     if (!is_logged_in()) {
         end_session();
-        goToInvalidSessionPage();
+        // goToInvalidSessionPage();
     }
 }
 

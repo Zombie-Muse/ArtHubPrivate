@@ -4,7 +4,7 @@
 </div><!-- end presso-preloader -->
     <div class="main-wrapper col-xs-12">
         <div class="mask-inner col-xs-12">
-            <section class="presso-header col-xs-12" data-background="images/section-bj/section-bj.jpg">
+            <section class="presso-header col-xs-12" data-background="https://www.placecage.com/c/200/300">
                 
                 <div class="presso-nav top-section col-xs-12">
                     <h1>Register</h1>
