@@ -31,10 +31,10 @@
                     <div class="container">
                         <ul>
                             <li class="filter active" data-filter="all">all</li>
-                            <li class="filter" data-filter=".websites">branding</li>
-                            <li class="filter" data-filter=".identity">animation</li>
-                            <li class="filter" data-filter=".logotypes">photography</li>
-                            <li class="filter" data-filter=".editing">presentation</li>
+                            <li class="filter" data-filter=".websites">Paintings</li>
+                            <li class="filter" data-filter=".identity">Sculptures</li>
+                            <li class="filter" data-filter=".logotypes">Photography</li>
+                            <li class="filter" data-filter=".editing">Mixed Media</li>
                         </ul>
                     </div>
                     <!-- end container -->
