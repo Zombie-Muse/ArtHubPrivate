@@ -39,8 +39,9 @@ class AdminController extends DefaultController {
     }
 
     public function logout() {
+        // end_session();
         after_successful_logout();
-        require(APP_NON_WEB_BASE_DIR .'views/home3.php');             //require(APP_NON_WEB_BASE_DIR .'views/cycleTracks.php');
+        require(APP_NON_WEB_BASE_DIR .'views/login.php');             //require(APP_NON_WEB_BASE_DIR .'views/cycleTracks.php');
     }
 
     public function registerGET() {

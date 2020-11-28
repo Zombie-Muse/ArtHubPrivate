@@ -141,7 +141,7 @@
                             </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="?ctlr=admin&amp;action=portfolio">Portfolio</a>
+                                        <a href="?ctlr=admin&amp;action=showPortfolio">Portfolio</a>
                                     </li>
                                     <li>
                                         <a href="?ctlr=admin&amp;action=addProduct">Upload</a>
