@@ -53,6 +53,7 @@
                                 <!-- end con-item -->
                                 <div class="form-group">
                                     <label for="uploadFile"><i>*File cannot be larger than 10MB*</i></label>
+                                    <input type="hidden" name="MAX_FILE_SIZE" value="<?php echo $max_file_size; ?>">
                                     <input type="file" name="artwork" class="form-control-file" id="uploadFile">
                                 </div>
                                 <div class="con-item col-xs-12">
