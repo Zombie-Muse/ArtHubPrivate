@@ -31,10 +31,10 @@
                     <div class="container">
                         <ul>
                             <li class="filter active" data-filter="all">all</li>
-                            <li class="filter" data-filter=".websites">branding</li>
-                            <li class="filter" data-filter=".identity">animation</li>
-                            <li class="filter" data-filter=".logotypes">photography</li>
-                            <li class="filter" data-filter=".editing">presentation</li>
+                            <li class="filter" data-filter=".paintings">Painting</li>
+                            <li class="filter" data-filter=".sculptures">Sculpture</li>
+                            <li class="filter" data-filter=".photos">Photography</li>
+                            <li class="filter" data-filter=".media">Mixed Media</li>
                         </ul>
                     </div>
                     <!-- end container -->
@@ -43,7 +43,7 @@
                 <div class="gallery-container col-xs-12">
                     <ul>
                         <li>
-                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 websites">
+                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 paintings">
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
@@ -53,12 +53,12 @@
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">item name</a>
+                                        <a href="#">"Heavy Thoughts"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
-                                        <a href="#">creative</a> |
-                                        <a href="#">branding</a>
+                                        <a href="#">Dimitar Belchev</a> |
+                                        <a href="https://www.dictionary.com/browse/painting?s=t">Painting</a>
                                     </div>
                                     <!-- end item-tags -->
                                 </div>
@@ -66,7 +66,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 identity">
+                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 paintings">
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
@@ -76,36 +76,12 @@
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">item name</a>
+                                        <a href="#">"Chinese Dragon"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
-                                        <a href="#">creative</a> |
-                                        <a href="#">branding</a>
-                                    </div>
-                                    <!-- end item-tags -->
-                                </div>
-                                <!-- end gallery-item-caption -->
-
-                            </div>
-                        </li>
-                        <li>
-                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 logotypes">
-                                <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
-                                <div class="gallery-item-caption col-xs-12">
-                                    <div class="open-mag">
-                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
-                                            <i class="fa fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <!-- end open-mag -->
-                                    <div class="item-name">
-                                        <a href="#">item name</a>
-                                    </div>
-                                    <!-- end item-name -->
-                                    <div class="item-tags">
-                                        <a href="#">creative</a> |
-                                        <a href="#">branding</a>
+                                        <a href="#">Tim Oun</a> |
+                                        <a href="https://www.dictionary.com/browse/painting?s=t">Painting</a>
                                     </div>
                                     <!-- end item-tags -->
                                 </div>
@@ -114,7 +90,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 websites">
+                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 sculptures">
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
@@ -124,12 +100,12 @@
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">item name</a>
+                                        <a href="#">"See No Evil"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
-                                        <a href="#">creative</a> |
-                                        <a href="#">branding</a>
+                                        <a href="#">Jeremy Lishner</a> |
+                                        <a href="https://www.dictionary.com/browse/sculpture?s=t">Sculpture</a>
                                     </div>
                                     <!-- end item-tags -->
                                 </div>
@@ -138,7 +114,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 logotypes">
+                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 sculptures">
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
@@ -148,12 +124,12 @@
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">item name</a>
+                                        <a href="#">"Migraine"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
-                                        <a href="#">creative</a> |
-                                        <a href="#">branding</a>
+                                        <a href="#">Sajad Nori</a> |
+                                        <a href="https://www.dictionary.com/browse/sculpture?s=t">Sculpture</a>
                                     </div>
                                     <!-- end item-tags -->
                                 </div>
@@ -162,7 +138,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 editing">
+                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 photos">
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
@@ -172,12 +148,12 @@
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">item name</a>
+                                        <a href="#">"Canada Water"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
-                                        <a href="#">creative</a> |
-                                        <a href="#">branding</a>
+                                        <a href="#">Luca Bravo</a> |
+                                        <a href="https://www.dictionary.com/browse/photography?s=t">Photography</a>
                                     </div>
                                     <!-- end item-tags -->
                                 </div>
@@ -186,7 +162,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 identity">
+                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 photos">
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
@@ -196,12 +172,12 @@
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">item name</a>
+                                        <a href="#">"Morning Fog"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
-                                        <a href="#">creative</a> |
-                                        <a href="#">branding</a>
+                                        <a href="#">Pine Watt</a> |
+                                        <a href="https://www.dictionary.com/browse/photography?s=t">Photography</a>
                                     </div>
                                     <!-- end item-tags -->
                                 </div>
@@ -210,7 +186,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 editing">
+                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 media">
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
@@ -220,12 +196,36 @@
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">item name</a>
+                                        <a href="#">"No"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
-                                        <a href="#">creative</a> |
-                                        <a href="#">branding</a>
+                                        <a href="#">Nathan Dumlao</a> |
+                                        <a href="https://www.dictionary.com/browse/mixed-media?s=t">Mixed Media</a>
+                                    </div>
+                                    <!-- end item-tags -->
+                                </div>
+                                <!-- end gallery-item-caption -->
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mix col-lg-3 col-md-3 col-sm-6 col-xs-12 media">
+                                <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
+                                <div class="gallery-item-caption col-xs-12">
+                                    <div class="open-mag">
+                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
+                                            <i class="fa fa-plus"></i>
+                                        </a>
+                                    </div>
+                                    <!-- end open-mag -->
+                                    <div class="item-name">
+                                        <a href="#">"Snake + Flower"</a>
+                                    </div>
+                                    <!-- end item-name -->
+                                    <div class="item-tags">
+                                        <a href="#">Victoria Wendish</a> |
+                                        <a href="https://www.dictionary.com/browse/mixed-media?s=t">Mixed Media</a>
                                     </div>
                                     <!-- end item-tags -->
                                 </div>
