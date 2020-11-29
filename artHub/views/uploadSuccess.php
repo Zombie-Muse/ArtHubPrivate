@@ -29,56 +29,77 @@
                 <div class="single-box top-section col-xs-12">
                     <div class="container">
                         <div class="single-slider col-md-8 col-xs-12">
-                        <form action="." method="post" id="upload" enctype="multipart/form-data">
-                                <input type="hidden" name="ctlr" value="admin" />
-                                <input type="hidden" name="action" value="addProduct" />
-                                    <?php echo csrf_token_tag(); ?>
-                                <div class="con-item col-xs-12">
-                                    <label>Title</label>
-                                    <input type="text" name="title" aria-required="true">
+                            <div class="single-portfolio-slider">
+                                <div class="single-item">
+                                    <img src="images/gallery-section/gallery.jpg" alt="single-portfolio-img">
                                 </div>
-                                <div class="con-item col-xs-12">
-                                    <label>Medium</label>
-                                    <input type="text" name="medium" aria-required="true">
+                                <!-- end single-item -->
+                                <div class="single-item">
+                                    <img src="images/gallery-section/gallery.jpg" alt="single-portfolio-img">
                                 </div>
-                                <div class="con-item col-xs-12">
-                                    <label>Dimensions</label>
-                                    <input type="text" name="dimensions" aria-required="false">
+                                <!-- end single-item -->
+                                <div class="single-item">
+                                    <img src="images/gallery-section/gallery.jpg" alt="single-portfolio-img">
                                 </div>
-                                <!-- end con-item -->
-                                <div class="con-item col-xs-12">
-                                    <label>Description</label>
-                                    <textarea name="description" rows="4" cols="60" aria-required="false"></textarea>
+                                <!-- end single-item -->
+                                <div class="single-item">
+                                    <img src="images/gallery-section/gallery.jpg" alt="single-portfolio-img">
                                 </div>
-                                <!-- end con-item -->
-                                <div class="form-group">
-                                    <label for="uploadFile"><i>*File cannot be larger than 10MB*</i></label>
-                                    <input type="file" name="artwork" class="form-control-file" id="uploadFile">
-                                </div>
-                                <div class="con-item col-xs-12">
-                                    <label></label>
-                                    <button type="submit">
-                                        <i class="fa fa-paper-plane"></i> Submit
-                                    </button>
-                                </div>
-
-                                <!-- end con-item -->
-                            </form>
+                                <!-- end single-item -->
+                            </div>
                             <!-- end single-portfolio-slider -->
                         </div>
                         <!-- end single-slider -->
                         <div class="single-data col-md-4 col-xs-12">
                             <div class="single-data-descr col-xs-12">
-                            <h3>Additional Information</h3>
-                            <p>Enter all the information you can. People want to know details. The rcommended format is: </br></br>
-                            
-                                "Example Title"</br>
-                                "Example oils on canvas"</br>
-                                "Description of the wonderful art you have created. You can also enter the dimensions and whatever other information that is relevant."
-
-                            </p>
+                                <h1>project description</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniamLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid untuntunt.
+                                </p>
                             </div>
                             <!-- end single-data-descr -->
+                            <div class="single-data-details col-xs-12">
+                                <ul>
+                                    <li>
+                                        <h1>client</h1>
+                                        <span>3o media</span>
+                                    </li>
+                                    <li>
+                                        <h1>services</h1>
+                                        <span>design , coding</span>
+                                    </li>
+                                    <li>
+                                        <h1>date</h1>
+                                        <span>11 dec 2016</span>
+                                    </li>
+                                    <li>
+                                        <h1>url</h1>
+                                        <span><a href="#">www.presso.com</a></span>
+                                    </li>
+                                    <li>
+                                        <h1>share</h1>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end single-data-details -->
+                            <div class="single-data-action col-xs-12">
+                                <a href="#">
+                                    <i class="fa fa-paper-plane"></i> live preview
+                                </a>
+                            </div>
                         </div>
                         <!-- end single-data -->
                     </div>
@@ -87,15 +108,8 @@
                 <!-- end single-box -->
                 <div class="single-latest top-section col-xs-12">
                     <div class="container">
-                    <?php
-                                  echo "<hr />";
-                                  var_dump($_FILES);
-                                  echo "<hr />";
-
-                                  upload_file('artwork');
-                                ?>
                         <div class="single-latest-head col-xs-12">
-                            <h1 class="head-center">Other art you have uploaded</h1>
+                            <h1 class="head-center">you may also like</h1>
                         </div>
                         <!-- end single-latest-head -->
                         <div class="single-latest-body gallery col-xs-12">

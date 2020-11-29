@@ -88,7 +88,7 @@ class AdminController extends DefaultController {
     public function addEditProduct() {                                      //changed to reflect upload page
         $vmAdd = ProductsVM::getAddEditInstance();
         $vm = ProductsVM::getCategoryInstance($vmAdd->category->id);
-        Page::$title = 'Product Mgr - ' . $vm->category->name;
+        Page::$title = 'Admin - Upload' . $vm->category->name;
         require(APP_NON_WEB_BASE_DIR . 'views/upload.php');       //old ref  require(APP_NON_WEB_BASE_DIR . 'views/adminProductList.php');
     }
     

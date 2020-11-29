@@ -39,7 +39,7 @@
                             }?>
                             <form action="." method="post" id="register_user">
                                 <input type="hidden" name="ctlr" value="admin" />
-                                <input type="hidden" name="action" value="register" />
+                                <input type="hidden" name="action" value="addProduct" />
                                     <?php echo csrf_token_tag(); ?>
                                 <div class="con-item col-xs-12">
                                     <label>First Name</label>

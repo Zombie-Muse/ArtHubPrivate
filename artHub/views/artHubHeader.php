@@ -13,10 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="images/faveicon.png">
+    <!-- <link rel="shortcut icon" href="images/faveicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 
     <!-- Css Files -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -25,7 +25,7 @@
     <link href="css/owl.theme.min.css" rel="stylesheet" type="text/css">
     <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="images/faveicon.png" rel="icon" type="text/css">
+    <!-- <link href="images/faveicon.png" rel="icon" type="text/css"> -->
 </head>
 
 <body>
