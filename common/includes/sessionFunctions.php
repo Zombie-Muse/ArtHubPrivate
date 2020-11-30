@@ -154,8 +154,8 @@ function goToInvalidSessionPage() {
 
 //    header('Location: ' . SITE_DOMAIN . 'index.php');
 //    $vm = null;
-    Page::$title = INVALID_SESSION_PAGE_TITLE;
-    require(APP_NON_WEB_BASE_DIR . INVALID_SESSION_PAGE);
+    Page::$title = 'Login First';
+    require(APP_NON_WEB_BASE_DIR . 'views/login.php');
     exit;
 }
 

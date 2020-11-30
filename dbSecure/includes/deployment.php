@@ -17,7 +17,7 @@ define ('DB_ACCESS_CREDENTIALS_FILE', ACCESS_BASE_DIR . 'dbAccess.csv');
 define ('SITE_DOMAIN', 'http://localhost/cis4270/finalProject/');
 
 // Page to display when session is invalid
-define ('INVALID_SESSION_PAGE', 'views/adminLogin.php');
+define ('INVALID_SESSION_PAGE', 'views/invalidForm.php');
 
 // Browser tab text for invalid session page
-define ('INVALID_SESSION_PAGE_TITLE', 'My Guitar Shop - Admin Login');
+define ('INVALID_SESSION_PAGE_TITLE', 'Restricted');

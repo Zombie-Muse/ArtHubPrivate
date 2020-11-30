@@ -54,6 +54,8 @@ function file_contains_php($file) {
     return $position !== false;
 }
 
+
+
 //Function for uploading files
 function upload_file($field_name) {
     global $upload_path, $max_file_size, $allowed_mime_types, $allowed_extensions, $check_is_image, $check_for_php;
@@ -115,4 +117,12 @@ function upload_file($field_name) {
             }
         }
     }
+}
+
+function display_photo($field_name) {
+    global $upload_path;
+    $file_name = sanitize_file_name($_FILES[$field_name]['name']);
+
+    $file_path = $upload_path . '/' . $file_name;
+    echo "<img src='$file_path' />";
 }

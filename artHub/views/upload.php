@@ -1,4 +1,7 @@
-<?php require('artHubAdminHeader.php'); ?>
+<?php before_every_protected_page();
+require('artHubAdminHeader.php'); 
+      
+?>
 
     <div class="main-wrapper col-xs-12">
         
@@ -94,6 +97,7 @@
                                   echo "<hr />";
 
                                   upload_file('artwork');
+                                  display_photo('artwork');
                                 ?>
                         <div class="single-latest-head col-xs-12">
                             <h1 class="head-center">Other art you have uploaded</h1>

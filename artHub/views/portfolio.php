@@ -1,4 +1,5 @@
-<?php require('artHubAdminHeader.php'); ?>
+<?php before_every_protected_page(); 
+    require('artHubAdminHeader.php'); ?>
 
 
     <div class="main-wrapper col-xs-12">
