@@ -47,13 +47,13 @@
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
-                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
+                                        <a href="images/gallery-section/paint1.jpg" rel="prettyPhoto[pp_gal]">
                                             <i class="fa fa-plus"></i>
                                         </a>
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">"Heavy Thoughts"</a>
+                                        <a href="images/gallery-section/paint1.jpg">"Heavy Thoughts"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
@@ -70,13 +70,13 @@
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
-                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
+                                        <a href="images/gallery-section/paint2.jpg" rel="prettyPhoto[pp_gal]">
                                             <i class="fa fa-plus"></i>
                                         </a>
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">"Chinese Dragon"</a>
+                                        <a href="images/gallery-section/paint2.jpg">"Chinese Dragon"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
@@ -94,13 +94,13 @@
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
-                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
+                                        <a href="images/gallery-section/sculpt1.jpg" rel="prettyPhoto[pp_gal]">
                                             <i class="fa fa-plus"></i>
                                         </a>
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">"See No Evil"</a>
+                                        <a href="images/gallery-section/sculpt1.jpg">"See No Evil"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
@@ -118,13 +118,13 @@
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
-                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
+                                        <a href="images/gallery-section/sculpt2.jpg" rel="prettyPhoto[pp_gal]">
                                             <i class="fa fa-plus"></i>
                                         </a>
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">"Migraine"</a>
+                                        <a href="images/gallery-section/sculpt2.jpg">"Migraine"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
@@ -142,13 +142,13 @@
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
-                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
+                                        <a href="images/gallery-section/photo1.jpg" rel="prettyPhoto[pp_gal]">
                                             <i class="fa fa-plus"></i>
                                         </a>
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">"Canada Water"</a>
+                                        <a href="images/gallery-section/photo1.jpg">"Canada Water"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
@@ -166,13 +166,13 @@
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
-                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
+                                        <a href="images/gallery-section/photo2.jpg" rel="prettyPhoto[pp_gal]">
                                             <i class="fa fa-plus"></i>
                                         </a>
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">"Morning Fog"</a>
+                                        <a href="images/gallery-section/photo2.jpg">"Morning Fog"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
@@ -190,13 +190,13 @@
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
-                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
+                                        <a href="images/gallery-section/mixed1.jpg" rel="prettyPhoto[pp_gal]">
                                             <i class="fa fa-plus"></i>
                                         </a>
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">"No"</a>
+                                        <a href="images/gallery-section/mixed1.jpg">"No"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
@@ -214,13 +214,13 @@
                                 <img src="images/gallery-section/gallery.jpg" alt="gallery-item-img">
                                 <div class="gallery-item-caption col-xs-12">
                                     <div class="open-mag">
-                                        <a href="images/gallery-section/gallery.jpg" rel="prettyPhoto[pp_gal]">
+                                        <a href="images/gallery-section/mixed2.jpg" rel="prettyPhoto[pp_gal]">
                                             <i class="fa fa-plus"></i>
                                         </a>
                                     </div>
                                     <!-- end open-mag -->
                                     <div class="item-name">
-                                        <a href="#">"Snake + Flower"</a>
+                                        <a href="images/gallery-section/mixed2.jpg">"Snake + Flower"</a>
                                     </div>
                                     <!-- end item-name -->
                                     <div class="item-tags">
