@@ -4,7 +4,7 @@
 // @version 201129
 
 $max_file_size = 2097152; //set for 2MB             1 MB = 1048576
-$upload_path = "H:/ArtHub/ArtHubPrivate/artHub/file_uploads";
+$upload_path = "H:/ArtHub/ArtHubPrivate/artHub/file_uploads";     //          GoDaddy site path "/home/qwz883i7kugv/cis4270/artHub/file_uploads"
 
 $allowed_mime_types = ['image/png', 'image/gif', 'image/jpg', 'image/jpeg'];
 $allowed_extensions = ['png', 'gif', 'jpg', 'jpeg'];
